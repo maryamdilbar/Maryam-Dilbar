@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Maryam - Student Profile</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f6ff;
+            color: #222;
+        }
+
+        header {
+            background-color: #172554;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        .container {
+            width: 85%;
+            margin: 30px auto;
+        }
+
+        .profile {
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px #999;
+            margin-bottom: 25px;
+        }
+
+        .profile h2 {
+            color: #172554;
+            border-bottom: 2px solid #172554;
+            padding-bottom: 10px;
+        }
+
+        .info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .info-box {
+            background-color: #eef2ff;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        .info-box strong {
+            color: #172554;
+        }
+
+        .about {
+            line-height: 1.8;
+            font-size: 17px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .skill {
+            background-color: #172554;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 25px;
+        }
+
+        .education {
+            background-color: #eef2ff;
+            padding: 20px;
+            border-left: 5px solid #172554;
+            margin-top: 15px;
+            border-radius: 8px;
+        }
+
+        .goals {
+            line-height: 1.8;
+        }
+
+        .goals li {
+            margin: 10px 0;
+        }
+
+        .contact {
+            text-align: center;
+            background-color: #172554;
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #0f172a;
+            color: white;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        button {
+            background-color: white;
+            color: #172554;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #dbeafe;
+        }
+
+        @media (max-width: 700px) {
+            .info {
+                grid-template-columns: 1fr;
+            }
+
+            header h1 {
+                font-size: 30px;
+            }
+
+            .container {
+                width: 92%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Maryam</h1>
+        <p>Cyber Security Student</p>
+        <p>Welcome to My Personal Profile</p>
+    </header>
+
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Personal Information -->
+        <section class="profile">
+
+            <h2>Personal Information</h2>
+
+            <div class="info">
+
+                <div class="info-box">
+                    <strong>Name:</strong>
+                    <p>Maryam</p>
+                </div>
+
+                <div class="info-box">
+                    <strong>Father Name:</strong>
+                    <p>Dilbar Hussain</p>
+                </div>
+
+                <div class="info-box">
+                    <strong>Field:</strong>
+                    <p>Cyber Security</p>
+                </div>
+
+                <div class="info-box">
+                    <strong>Student Status:</strong>
+                    <p>Currently Studying</p>
+                </div>
+
+                <div class="info-box">
+                    <strong>Interest:</strong>
+                    <p>Cyber Security and Technology</p>
+                </div>
+
+                <div class="info-box">
+                    <strong>Career Goal:</strong>
+                    <p>Cyber Security Professional</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- About Me Section -->
+        <section class="profile">
+
+            <h2>About Me</h2>
+
+            <p class="about">
+                My name is Maryam and I am a student of Cyber Security.
+                I am interested in computer security, networks, ethical
+                hacking, and information technology. I want to learn how
+                cyber attacks happen and how computer systems can be
+                protected from different types of security threats.
+            </p>
+
+            <p class="about">
+                My goal is to improve my technical skills and become a
+                professional in the field of Cyber Security. I believe
+                that learning new technologies and practicing regularly
+                can help me build a successful career in the future.
+            </p>
+
+        </section>
+
+
+        <!-- Education Section -->
+        <section class="profile">
+
+            <h2>Education</h2>
+
+            <div class="education">
+                <h3>Cyber Security</h3>
+                <p>
+                    I am currently studying Cyber Security and learning
+                    different concepts related to computers, networks,
+                    information security, and cyber threats.
+                </p>
+            </div>
+
+            <div class="education">
+                <h3>Areas of Learning</h3>
+                <p>
+                    Networking, Linux, Web Security, Ethical Hacking,
+                    Cryptography, Digital Forensics, and Cyber Security.
+                </p>
+            </div>
+
+        </section>
+  <!-- Skills Section -->
+        <section class="profile">
+
+            <h2>My Skills</h2>
+
+            <div class="skills">
+
+                <div class="skill">Cyber Security</div>
+
+                <div class="skill">Computer Basics</div>
+
+                <div class="skill">Networking</div>
+
+                <div class="skill">Linux</div>
+
+                <div class="skill">HTML</div>
+
+                <div class="skill">Web Security</div>
+
+                <div class="skill">Programming</div>
+
+                <div class="skill">Problem Solving</div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Career Goals -->
+        <section class="profile">
+
+            <h2>My Career Goals</h2>
+
+            <ul class="goals">
+
+                <li>
+                    Become a professional Cyber Security specialist.
+                </li>
+
+                <li>
+                    Learn ethical hacking and penetration testing.
+                </li>
+
+                <li>
+                    Improve my networking and Linux skills.
+                </li>
+
+                <li>
+                    Learn how to protect computer systems and networks.
+                </li>
+
+                <li>
+                    Understand modern cyber attacks and security threats.
+                </li>
+
+                <li>
+                    Build practical experience in Cyber Security.
+                </li>
+
+            </ul>
+
+        </section>
+
+
+        <!-- Hobbies Section -->
+        <section class="profile">
+
+            <h2>My Interests</h2>
+
+            <p class="about">
+                My interests include learning new computer technologies,
+                exploring Cyber Security, understanding computer networks,
+                practicing programming, learning Linux commands, and
+                exploring different security tools.
+            </p>
+
+        </section>
+
+
+        <!-- Contact Section -->
+        <section class="contact">
+
+            <h2>Student Profile</h2>
+
+            <p>
+                Name: Maryam
+            </p>
+
+            <p>
+                Father Name: Dilbar Hussain
+            </p>
+
+            <p>
+                Field: Cyber Security
+            </p>
+
+            <button onclick="showMessage()">
+                Click Here
+            </button>
+
+        </section>
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            &copy; 2026 Maryam - Cyber Security Student
+        </p>
+
+        <p>
+            All Rights Reserved
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script>
+
+        function showMessage() {
+
+            alert(
+                "Welcome to Maryam's Student Profile!"
+            );
+
+        }
+
+    </script>
+
+</body>
+
+</html>
+
+
